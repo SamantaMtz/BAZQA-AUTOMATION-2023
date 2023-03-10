@@ -6,7 +6,7 @@ Background:
     When we tap on Sauce Labs Bolt T-Shirt
     Then we tap on Add To Cart
 
-@e2e
+@e2e, @regression, @smokeTest
 Scenario: validate_product_in_the_shopping_cart
     When we tap on Cart
     Then we see the Shopping Cart

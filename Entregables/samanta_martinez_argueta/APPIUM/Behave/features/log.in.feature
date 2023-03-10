@@ -4,7 +4,7 @@ Feature: Log In
 Background:
   Given we are in the Home Page
 
- @e2e
+ @e2e, @regression, @smokeTest
  Scenario: login_correct_credentials
    Given we tap on the side menu
    Then we tap on log in

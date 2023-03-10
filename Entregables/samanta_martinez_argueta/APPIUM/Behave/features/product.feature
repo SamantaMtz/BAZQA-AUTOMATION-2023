@@ -3,7 +3,7 @@ Feature: Product detail
 Background:
       Given we are in the Home Page
 
-@e2e
+@e2e, @regression, @smokeTest
 Scenario: validate_product_detail
   When we tap on Sauce Labs Bolt T-Shirt
   And we see the Product

@@ -3,6 +3,6 @@ Feature: Home Screen
 Background:
       Given we are in the Home Page
 
-  @e2e
+  @e2e, @regression, @smokeTest
   Scenario: validate_home_screen
     Then we see the Products label
